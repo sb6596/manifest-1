@@ -55,6 +55,7 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="aex" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aex" />
   <project path="hardware/aosp/interfaces" name="platform_hardware_aosp_interfaces" groups="pdk" remote="aex" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="aex" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="aex" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="aex" />
@@ -92,7 +93,7 @@
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="aex"  />
 
   <!-- GApps -->
-  <project path="vendor/gapps" name="platform_vendor_gapps" clone-depth="1" remote="aex-lab" />
+  <project path="vendor/google" name="platform_vendor_gapps" clone-depth="1" remote="aex-lab" />
 
   <!-- AOSP -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r46" />
